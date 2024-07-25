@@ -1,0 +1,25 @@
+{% extends 'user_base.html' %}
+
+{% block content %}
+
+
+<div class="content-div">
+
+    <br><br>
+<div style="height: 150px;">
+    <h1>User management</h1>
+</div>
+
+
+<div class="col-12">
+
+    <a class="btn-warning custom-btn" href="{% url 'admin_alluser' %}" role="button">All users</a>
+    <a class="btn-warning custom-btn" href="{% url 'add_user' %}" role="button">Add user</a>
+    <a class="btn-warning custom-btn" href="{% url 'delete_user' %}" role="button">Delete user</a>
+    <a class="btn-warning custom-btn" href="{% url 'admin_passreset' %}" role="button">Reset user password</a>
+    <a class="btn-warning custom-btn" href="{% url 'change_role' %}" role="button">Change user role</a>
+
+</div>
+</div>
+
+{% endblock %}

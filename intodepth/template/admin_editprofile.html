@@ -1,0 +1,25 @@
+{% extends 'user_base.html' %}
+
+{% block content %}
+
+<h1><u>Edit Profile:</u></h1>
+
+<div class="container login-container">
+    <div class="login-form">
+        
+        <form method="POST">
+            {% csrf_token %}
+            {{form}}
+            
+            <button type="submit" class="btn btn-success btn-block">Update</button>
+
+
+            {% for message in messages %}
+            <h3>{{message}}</h3>
+            {% endfor %}
+
+
+        </form>
+    </div>
+</div>
+{% endblock %}

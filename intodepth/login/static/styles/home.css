@@ -1,0 +1,92 @@
+.home-banner {
+    /*background-color: #e2e0e8; /* Light blue */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 20px;
+    height: 120px;
+    text-align: center;
+    color: rgb(206, 154, 154);
+}
+.user-info {
+    position: absolute;
+    left: 20px;
+    display: flex;
+    align-items: center;
+}
+.user-info img {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+.left-nav {
+    
+    /*background-color: #e2e0e8;*/
+    width: 100%;
+    padding-top: 20px;
+    border-top: solid rgb(187, 185, 185) 5px;
+    border-right: solid rgb(187, 185, 185) 5px;
+    border-radius: 20px;
+    
+}
+.left-nav button {
+    width: 80%;
+    margin: 10px auto;
+    border-radius: 20px;
+    display: block;
+}
+
+
+.left-nav a {
+    width: 80%;
+    margin: 10px;
+    border-radius: 20px;
+    display: block;
+}
+
+
+
+
+.logout-button {
+    background-color: #ff6666; /* Red background for logout button */
+}
+.content-area {
+    
+    border-top: solid rgb(187, 185, 185) 10px;
+    
+    border-radius: 15%;
+    background-color: #e2e0e8; /* Light grey */
+    padding: 10px;
+    
+    color: darkgoldenrod;
+}
+
+.content-div {
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+
+
+.user_home {
+    position: relative;
+    top: 25%;
+    left: 13%;
+}
+
+.custom-btn {
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    padding: 3.375rem .75rem;
+}
+
+
+.custom-width {
+    max-width: 300px; /* Adjust the width as needed */
+    width: 100%;
+}

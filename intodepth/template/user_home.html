@@ -1,0 +1,22 @@
+{% extends 'user_base.html' %}
+
+{% block content %}
+
+<!--
+<h1>Welcome {{firstname}}, {{lastname}} !</h1>
+-->
+{% for message in messages %}
+    <p style="color: rgb(17, 136, 17);">{{message}}</p>
+    {%endfor%}
+
+<div class="user_home">
+    <h1 class="display-1 mid">Focus on Work Matters!</h1>
+
+    
+
+</div>
+
+
+
+{% endblock %}
+
